@@ -103,7 +103,7 @@
         <mybatis.version>3.5.9</mybatis.version>
         <druid.version>1.2.6</druid.version>
         <elasticsearch6.version>6.8.17</elasticsearch6.version>
-        <elasticsearch7.version>7.9.2</elasticsearch7.version>
+        <elasticsearch7.version>7.17.25</elasticsearch7.version>
         <shiro.version>1.10.1</shiro.version>
 
         <snappy.version>1.1.8.4</snappy.version>
@@ -1562,7 +1562,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1596,7 +1596,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1628,7 +1628,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
