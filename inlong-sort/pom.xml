@@ -46,7 +46,7 @@
         <rat.basedir>${basedir}</rat.basedir>
         <hbase.version>2.2.3</hbase.version>
         <iceberg.hive.version>2.3.7</iceberg.hive.version>
-        <hudi.hive.version>2.3.7</hudi.hive.version>
+        <hudi.hive.version>4.0.0</hudi.hive.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -123,7 +123,7 @@
                                 <dependencyReducedPomLocation>${project.basedir}/target/dependency-reduced-pom.xml</dependencyReducedPomLocation>
                                 <createSourcesJar>true</createSourcesJar>
                                 <transformers>
-                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 </transformers>
                             </configuration>
                         </execution>
