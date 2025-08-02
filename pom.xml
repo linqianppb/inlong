@@ -134,7 +134,7 @@
         <fastjson.version>1.2.83</fastjson.version>
 
         <clickhouse-jdbc.version>0.3.1</clickhouse-jdbc.version>
-        <hive.version>3.1.3</hive.version>
+        <hive.version>4.1.0</hive.version>
         <thrift.version>0.9.3</thrift.version>
         <flume.version>1.10.0</flume.version>
         <hbase.version>2.4.12</hbase.version>
@@ -147,7 +147,7 @@
 
         <aws.sdk.version>1.12.346</aws.sdk.version>
         <zookeeper.version>3.6.3</zookeeper.version>
-        <pulsar.version>2.8.1</pulsar.version>
+        <pulsar.version>4.0.6</pulsar.version>
         <pulsar.testcontainers.version>1.15.3</pulsar.testcontainers.version>
         <kafka.version>2.4.1</kafka.version>
         <iceberg.version>1.1.0</iceberg.version>
@@ -1562,7 +1562,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1596,7 +1596,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1628,7 +1628,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
