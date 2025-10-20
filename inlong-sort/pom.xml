@@ -45,7 +45,7 @@
         <kafka.clients.version>2.7.0</kafka.clients.version>
         <rat.basedir>${basedir}</rat.basedir>
         <hbase.version>2.2.3</hbase.version>
-        <iceberg.hive.version>2.3.7</iceberg.hive.version>
+        <iceberg.hive.version>4.0.1</iceberg.hive.version>
         <hudi.hive.version>2.3.7</hudi.hive.version>
     </properties>
     <dependencyManagement>
@@ -123,7 +123,7 @@
                                 <dependencyReducedPomLocation>${project.basedir}/target/dependency-reduced-pom.xml</dependencyReducedPomLocation>
                                 <createSourcesJar>true</createSourcesJar>
                                 <transformers>
-                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                    <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 </transformers>
                             </configuration>
                         </execution>
