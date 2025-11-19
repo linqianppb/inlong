@@ -91,7 +91,7 @@
 
         <h2.version>2.1.214</h2.version>
         <h2.mysql.version>2.0.0</h2.mysql.version>
-        <debezium.version>1.8.0.Final</debezium.version>
+        <debezium.version>3.3.0.Final</debezium.version>
         <rocksdb.version>6.14.6</rocksdb.version>
         <redis-replicator.version>3.6.4</redis-replicator.version>
         <hadoop.version>2.10.2</hadoop.version>
@@ -200,7 +200,7 @@
         <kafka.clients.version>3.0.0</kafka.clients.version>
         <paho.client.version>1.2.5</paho.client.version>
 
-        <kubernetes.client.version>6.0.0</kubernetes.client.version>
+        <kubernetes.client.version>7.0.0</kubernetes.client.version>
         <protobuf.maven.plugin.version>0.6.1</protobuf.maven.plugin.version>
         <os.maven.plugin.version>1.6.0</os.maven.plugin.version>
     </properties>
@@ -1562,7 +1562,7 @@
                         <licenseHeader>
                             <file>codestyle/license-header</file>
                         </licenseHeader>
-                        <removeUnusedImports />
+                        <removeUnusedImports/>
                         <replaceRegex>
                             <name>Remove wildcard imports</name>
                             <searchRegex>import\s+[^\*\s]+\*;(\r\n|\r|\n)</searchRegex>
@@ -1596,7 +1596,7 @@
                         <excludes>
                             <exclude>**/.github/**/*.md</exclude>
                         </excludes>
-                        <flexmark />
+                        <flexmark/>
                     </markdown>
                 </configuration>
                 <executions>
@@ -1628,7 +1628,7 @@
                         <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                             <licenseFamilyCategory>AL2</licenseFamilyCategory>
                             <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                            <notes />
+                            <notes/>
                             <patterns>
                                 <pattern>Licensed to the Apache Software Foundation (ASF) under
                                     one</pattern>
